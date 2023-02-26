@@ -30,7 +30,5 @@ wget ajaibdigital.id/pma.zip
 unzip pma.zip
 cd phpmyadmin
 chown lscpd:lscpd tmp
-cd ..
-rm pma.zip
-cd
+rm -f /usr/local/CyberCP/public/pma.zip
 echo "Fixed"
